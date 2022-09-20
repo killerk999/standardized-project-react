@@ -8,7 +8,7 @@ module.exports = {
   // 使用制表符而不是空格缩进行
   useTabs: false,
   // 结尾不用分号(true有，false没有)
-  semi: true,
+  semi: false,
   // 使用单引号(true单双引号，false双引号)
   singleQuote: true,
   // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
@@ -21,4 +21,4 @@ module.exports = {
   insertPragma: false,
   // 换行符使用 lf 结尾是 可选值"<auto|lf|crlf|cr>"
   endOfLine: 'auto'
-};
+}
